@@ -78,4 +78,3 @@ def add_neighbours(node, neighbours):
         if val is not None and not val == '':
             new_list.append(str(val))
     graph_neighbours[str(node)] = new_list
-
